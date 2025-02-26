@@ -13,24 +13,33 @@ for (int i = 0; i < words.Length; i++)
 {
     if (Vowels.Contains(words[i][0]))
         words[i] = words[i] + "way";
-    else
-        //consonant conversion
-}
-
-/*
-foreach (string word in words)
-{
-    if (word[0]=='a' || word[0]=='e' || word[0]=='i' || word[0]=='o' || word[0]=='u')
-        word = word + "way";
-}
-*/
-
+    else if (Vowels.Contains(words[i][1]))
+    {
+        string word;
+        
+        {
+            string word = words[i].Substring(1);
+            word = word + words[i][0];
+        }
     
+        
+    }
+}
+/*
+    else if (Vowels.Contains(words[i][2]))
+    {
+        words[i] = words[i] + words[i][0] + words[i][1] + "ay";
+        words[i].Remove(0, 2);
+    }
+    else if (Vowels.Contains(words[i][3]))
+    {
+        words[i] = words[i] + words[i][0] + words[i][1] + words[i][2] + "ay";
+        words[i].Remove(0, 3);
+    }
+}
 
 
 
 foreach (string word in words)
     Console.WriteLine(word);
 
-enum Consonant {b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z}
-enum Vowel {a,e,i,o,u}
