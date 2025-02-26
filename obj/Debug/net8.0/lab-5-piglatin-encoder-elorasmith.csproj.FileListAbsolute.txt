@@ -1,0 +1,15 @@
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\bin\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.exe
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\bin\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.deps.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\bin\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.runtimeconfig.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\bin\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\bin\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.pdb
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.AssemblyInfoInputs.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.AssemblyInfo.cs
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.csproj.CoreCompileInputs.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.sourcelink.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\refint\lab-5-piglatin-encoder-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.pdb
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\lab-5-piglatin-encoder-elorasmith.genruntimeconfig.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-5-piglatin-encoder-elorasmith\obj\Debug\net8.0\ref\lab-5-piglatin-encoder-elorasmith.dll
