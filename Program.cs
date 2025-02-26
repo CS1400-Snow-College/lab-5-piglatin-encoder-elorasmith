@@ -13,33 +13,20 @@ for (int i = 0; i < words.Length; i++)
 {
     if (Vowels.Contains(words[i][0]))
         words[i] = words[i] + "way";
-    else if (Vowels.Contains(words[i][1]))
+    else
     {
-        string word;
-        
+        while (Vowels.Contains(words[i][0]) == false)
         {
-            string word = words[i].Substring(1);
-            word = word + words[i][0];
-        }
-    
+            words[i] = words[i].Substring(1) + words[i][0];
+         }
+        words[i] = words[i] + "ay";
         
     }
-}
-/*
-    else if (Vowels.Contains(words[i][2]))
-    {
-        words[i] = words[i] + words[i][0] + words[i][1] + "ay";
-        words[i].Remove(0, 2);
-    }
-    else if (Vowels.Contains(words[i][3]))
-    {
-        words[i] = words[i] + words[i][0] + words[i][1] + words[i][2] + "ay";
-        words[i].Remove(0, 3);
-    }
+   
+        
 }
 
-
-
+Console.Write("In Pig Latin that's: ");
 foreach (string word in words)
-    Console.WriteLine(word);
+    Console.Write($"{word} ");
 
