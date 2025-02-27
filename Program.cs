@@ -21,12 +21,22 @@ for (int i = 0; i < words.Length; i++)
          }
         words[i] = words[i] + "ay";
         
-    }
-   
-        
+    }     
 }
-
 Console.Write("In Pig Latin that's: ");
 foreach (string word in words)
     Console.Write($"{word} ");
+Console.WriteLine();
+
+Console.Write("We can encrypt that as: ");
+for (int i = 0; i < words.Length; i++)
+{
+    for (int j = 0; j < words[i].Length; j++)
+    {
+        char temp = words[i][j];
+        temp = (char)((int)temp + 1);
+        Console.Write(temp);
+    }
+    
+}
 
