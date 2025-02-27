@@ -23,9 +23,9 @@ for (int i = 0; i < words.Length; i++)
             words[i] = words[i].Substring(1) + words[i][0];
          }
         words[i] = words[i] + "ay";
-       
-    }     
+    }  
 }
+
 Console.Write("In Pig Latin that's: ");
 foreach (string word in words)
     Console.Write($"{word} ");
