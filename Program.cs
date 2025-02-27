@@ -11,16 +11,19 @@ string[] words = phrase.Split(' ');
 string Vowels = "aeiouAEIOU";
 for (int i = 0; i < words.Length; i++)
 {
+    words[i] = words[i].ToLower(); 
     if (Vowels.Contains(words[i][0]))
         words[i] = words[i] + "way";
     else
     {
+        if (words[i].Contains('y') && words[i][0] != 'y')
+            Vowels = "aeiouyAEIOUY";
         while (Vowels.Contains(words[i][0]) == false)
         {
             words[i] = words[i].Substring(1) + words[i][0];
          }
         words[i] = words[i] + "ay";
-        
+       
     }     
 }
 Console.Write("In Pig Latin that's: ");
@@ -34,9 +37,11 @@ for (int i = 0; i < words.Length; i++)
     for (int j = 0; j < words[i].Length; j++)
     {
         char temp = words[i][j];
-        temp = (char)((int)temp + 1);
+        temp = (char)(temp + 5);
         Console.Write(temp);
     }
     
 }
 
+// ASCII #'s: a = 97, z = 122
+// and make the word lower case first?
